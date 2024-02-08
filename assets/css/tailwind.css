@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50;
+  }
+}
+
+@layer utilities {
+  .btn {
+    @apply py-3 px-6 inline-flex gap-2 items-center rounded-md text-white bg-gradient-to-bl from-green-500 to-teal-600 font-semibold hover:to-green-600 transition-all
+  }
+}
